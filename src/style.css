@@ -14,10 +14,12 @@ ul {
   margin: 0;
   padding: 0;
 }
+
 li {
   list-style: none;
   margin: 0;
   padding: 0;
+
   color: lightblue;
   font-size: 16px;
   font-weight: 100;
@@ -29,8 +31,6 @@ li::first-letter {
 }
 
 .weather-app {
-  max-width: 600px;
-  margin: 30px auto;
   padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
@@ -81,7 +81,7 @@ li::first-letter {
 
 .weather-forecast-date {
   font-size: 16px;
-  color: red;
+  color: lightblue;
   opacity: 0.5;
 }
 
